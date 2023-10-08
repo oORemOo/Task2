@@ -3,15 +3,17 @@
 1. npm install
 2. docker-compose up
 
-ทดสอบด้วย Postman
-1 GET http://localhost:3000/users
+## ทดสอบด้วย Postman
 
-2 DELETE http://localhost:3000/users/delete/ไอดีที่ต้องการลบ
+## 1 GET http://localhost:3000/users
+
+## 2 DELETE http://localhost:3000/users/delete/ไอดีที่ต้องการลบ
   ใน Body Raw [JSON]
   {
   "id": 1
   }
-3 POST http://localhost:3000/users/create
+  
+## 3 POST http://localhost:3000/users/create
   ใน Body Raw [JSON]
   {
   "id": 2,
@@ -22,16 +24,19 @@
   "birthday": "2000-01-01",
   "address": "123 Example Street"
   }
-4 POST http://localhost:3000/users/login
+  
+## 4 POST http://localhost:3000/users/login
   ใน Body Raw [JSON]
   {
   "username": "exampleuser",
   "password": "password123"
 
   }
-5 POST http://localhost:3000/users/logout
+  
+## 5 POST http://localhost:3000/users/logout
 
-6 PUT http://localhost:3000/users/update
+
+## 6 PUT http://localhost:3000/users/update
   ใน Body Raw [JSON]
   {
   "id": 2,
